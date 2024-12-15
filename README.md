@@ -61,3 +61,7 @@ pnpm i commitlint @commitlint/cli @commitlint/config-conventional -D -w
 npx --no-install commitlint -e $HUSKY_GIT_PARAMS
 
 ```
+
+打包工具
+
+pnpm i -D -w rollup

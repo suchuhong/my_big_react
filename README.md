@@ -65,3 +65,28 @@ npx --no-install commitlint -e $HUSKY_GIT_PARAMS
 打包工具
 
 pnpm i -D -w rollup
+
+打包用到的插件
+
+pnpm i -D -w rollup-plugin-typescript2
+pnpm i -D -w @rollup/plugin-commonjs
+
+pnpm i -D -w rimraf
+pnpm i -D -w rollup-plugin-generate-package-json
+
+```
+(base) PS E:\R-react\my_big_react\dist\node_modules\react> pnpm link --global
+Progress: resolved 260, reused 259, downloaded 0, added 0, done
+
+C:\Users\suchuhong\AppData\Local\pnpm\global\5:
++ react 1.0.0 <- E:\R-react\my_big_react\dist\node_modules\react
+(base) PS E:\R-react\my_big_react\dist\node_modules\react> pnpm unlink --global
+(base) PS E:\R-react\my_big_react\dist\node_modules\react> pnpm link --global
+Progress: resolved 260, reused 259, downloaded 0, added 0, done
+```
+
+第一种调试方法
+
+https://pnpm.io/zh/cli/link
+
+pnpm link E:\R-react\my_big_react\dist\node_modules\react

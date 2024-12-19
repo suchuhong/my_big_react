@@ -60,12 +60,16 @@ importers:
         specifier: ^8.18.0
         version: 8.18.0(eslint@9.17.0(jiti@1.21.6))(typescript@5.7.2)
 
-  dist/node_modules/react: {}
-
   packages/react:
     dependencies:
       shared:
         specifier: workspace:*
+        version: link:../shared
+
+  packages/react-reconciler:
+    dependencies:
+      shared:
+        specifier: 'workspace: *'
         version: link:../shared
 
   packages/shared: {}

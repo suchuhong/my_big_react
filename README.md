@@ -90,3 +90,7 @@ Progress: resolved 260, reused 259, downloaded 0, added 0, done
 https://pnpm.io/zh/cli/link
 
 pnpm link E:\R-react\my_big_react\dist\node_modules\react
+
+react-reconciler
+
+pnpm init
